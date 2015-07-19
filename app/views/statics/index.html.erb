@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h1>HELLO?</h1>
+  <h2>YES THIS IS DOG</h2>
+</div>
+
+<% if signed_in? %>
+  <%= link_to "Sign out here", destroy_user_session_path, method: :delete %>
+<% end %> 
