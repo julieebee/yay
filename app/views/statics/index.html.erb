@@ -1,7 +1,105 @@
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <h1>Yay?</h1>
   <h2>Yay!</h2>
+</div> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YayYay!</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="/assets/application-0723cb9a2dd5a514d954f70e0fe0b89f6f9f1ae3a375c182f43b5f2b57e9c869.css" />
+  <script src="/assets/application-cec4e8f06770c54117efb12dc1f314afc918212e0f56179c0706e9bbe344ab24.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="qH6eFfXGZc0hQdpQm8Tkqpu5V4A3CtTK2ppqSXGlpI0TRWXNDIrTQyQmvip0KGt6itLJ0wHfRtWQT+9o9xfcFA==" />
+</head>
+  <body>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+<!-- <img class="YayBackground" src="http://static2.wallpedes.com/wallpaper/creative/creative-hd-wallpapers-for-desktop-backgrounds-creative-desktop-wallpaper-wallpapers-for-iphone-hd-with-quotes-facebook-mobile-free-download-ideas-home.jpg" width="2560" height="1600" alt="Creative Hd Wallpapers for Desktop Backgrounds 2560x1600px"> -->
+
+<%= image_tag "http://static2.wallpedes.com/wallpaper/creative/creative-hd-wallpapers-for-desktop-backgrounds-creative-desktop-wallpaper-wallpapers-for-iphone-hd-with-quotes-facebook-mobile-free-download-ideas-home.jpg", class: "YayBackground", style: "width: 2560px; height: 1600px" %>
+
+<div class="row" style="padding-top: 200px; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px">
+  <div class="col-md-10 col-md-offset-1 black-background">
+    <div class="text-center">
+      <div class="Yay-Title">
+        YAY? YAY!
+      </div>
+      <div class="description">
+        Happiness awaits!
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="row" style="padding-top: 250px; padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px">
+  <div class="col-md-10 col-md-offset-1" style="position: fixed">
+    <div class="text-center">
+      <div align="center">
+        <div class="ghost-button">
+          <div class="button-text">
+           	YAAAYYYY!!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+
+  .button-text{
+    margin-top: 11%;
+  }
+
+  .ghost-button{
+    border: 10px solid white;
+    width: 255px;
+    height: 100px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .black-background{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    position: fixed;
+  }
+
+  .description{
+    color: white;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .Yay-Title{
+    font-size: 60px;
+    color: white;
+    line-height: 68px;
+    font-weight: bolder;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .YayBackground{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+</style>
+  </body>
+</html>
+
 
 <% if signed_in? %>
   <%= link_to "Sign out here", destroy_user_session_path, method: :delete %>
