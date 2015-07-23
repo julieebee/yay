@@ -1,4 +1,4 @@
 class pages_controller
-	def asdfasdf
+	def YayOrNay
 	end
 end
