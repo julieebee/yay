@@ -7,14 +7,16 @@ class StaticsController < ApplicationController
     @statics = Static.all
   end
 
+  def YayOrNay
+    @statics = Static.all
+  end
+
   # GET /statics/1
   # GET /statics/1.json
   def show
   end
 
 
-  def YayOrNay
-  end
   # GET /statics/new
   def new
     @static = Static.new
